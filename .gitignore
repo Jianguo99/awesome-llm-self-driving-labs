@@ -1,0 +1,9 @@
+.env
+
+search_papers
+__pycache__/
+*.py[cod]
+
+latest_papers*.md
+latest_papers*.json
+outputs/

@@ -24,9 +24,23 @@ Resources are organized by domain. The tier guide below can be used as optional 
 
 ![Tier framework](tier_framework.png)
 
+## 📰 News
+
+- **Atinary's AI & Self-Driving Labs on AWS Accelerate R&D for Takeda and MIT** *(Atinary / AWS)* - [AWS blog](https://aws.amazon.com/blogs/physical-ai/atinarys-ai-self-driving-labs-on-aws-accelerate-rd-for-takeda-and-mit/)
+
+- **Ginkgo Bioworks' Autonomous Laboratory Driven by OpenAI's GPT-5** *(Ginkgo Bioworks / OpenAI)* - [press release](https://www.prnewswire.com/news-releases/ginkgo-bioworks-autonomous-laboratory-driven-by-openais-gpt-5-achieves-40-improvement-over-state-of-the-art-scientific-benchmark-302680619.html)
+
+- **AI, Automation Drive Autonomous Science** - [Newswise](https://www.newswise.com/doescience/ai-automation-drive-autonomous-science)
+
+- **When AI Takes Over Scientific Discovery** - [Forbes](https://www.forbes.com/sites/craigsmith/2025/03/23/when-ai-takes-over-scientific-discovery/)
+
+- **AI Boosts Research Careers, but Flattens Scientific Discovery** - [IEEE Spectrum](https://spectrum.ieee.org/ai-science-research-flattens-discovery)
+
 ## 🧪 Chemistry and Materials
 
 - **Coscientist: Autonomous Chemical Research with Large Language Models** *(Carnegie Mellon University)* - [Nature paper](https://www.nature.com/articles/s41586-023-06792-0) / [technical note](https://hunterheidenreich.com/notes/chemistry/llm-applications/autonomous-chemical-research-coscientist/)
+
+- **Augmenting Large Language Models with Chemistry Tools** *(ChemCrow)* - [Nature Machine Intelligence](https://www.nature.com/articles/s42256-024-00832-8)
 
 - **AI-Chemist: An All-Round AI-Chemist with a Scientific Mind** - [paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC9674120/)
 
@@ -35,6 +49,12 @@ Resources are organized by domain. The tier guide below can be used as optional 
 - **A-Lab: An Autonomous Laboratory for the Accelerated Synthesis of Novel Materials** *(UC Berkeley / Ceder Group)* - [paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC10700133/) / [Berkeley page](https://ceder.berkeley.edu/research-areas/autonomous-experimentation-for-accelerated-materials-discovery/) / [correction coverage](https://cen.acs.org/research-integrity/Nature-robot-chemist-paper-corrected/104/web/2026/01)
 
 - **MARS: Knowledge-Driven Autonomous Materials Research via Collaborative Multi-Agent and Robot System** *(Shenzhen Institute of Advanced Technology)* - [paper](https://www.sciencedirect.com/science/article/abs/pii/S2590238525006204) / [technical coverage](https://www.labmanager.com/closed-loop-autonomous-materials-discovery-system-advances-lab-innovation-34949)
+
+- **Large Language Models for Porous Materials: From Text Mining to Autonomous Laboratory** - [Digital Discovery](https://pubs.rsc.org/en/content/articlehtml/2026/dd/d5dd00578g)
+
+- **Artificial Intelligence-Driven Autonomous Laboratory for Accelerating Chemical Discovery** - [paper](https://www.oaepublish.com/articles/cs.2025.66)
+
+- **Autonomous Laboratories in China: An Embodied Intelligence-Driven Platform to Accelerate Chemical Discovery** - [paper](https://www.sciencedirect.com/org/science/article/pii/S2635098X25000956)
 
 ## 🧬 Biology and Biomedicine
 
@@ -52,9 +72,21 @@ Resources are organized by domain. The tier guide below can be used as optional 
 
 - **Agent Laboratory** *(Schmidgall et al.)* - [paper](https://arxiv.org/abs/2501.04227) / [project](https://agentlaboratory.github.io/) / [code](https://github.com/SamuelSchmidgall/AgentLaboratory)
 
+- **Autonomous Agents for Scientific Discovery: Orchestrating Scientists, Language, Code, and Physics** - [arXiv](https://arxiv.org/html/2510.09901v2)
+
+- **Towards End-to-End Automation of AI Research** - [Nature paper](https://www.nature.com/articles/s41586-026-10265-5)
+
 ## 🤖 Protocols and Lab Automation
 
 - **Expert-Level Protocol Translation for Self-Driving Labs** - [paper](https://arxiv.org/abs/2411.00444)
+
+- **Evaluating Large Language Model Agents for Automation of Atomic Force Microscopy** - [Nature Communications](https://www.nature.com/articles/s41467-025-64105-7)
+
+- **Toward Full Autonomous Laboratory Instrumentation Control with Large Language Models** - [paper](https://onlinelibrary.wiley.com/doi/full/10.1002/sstr.202500173)
+
+- **Integrating Domain-Specialized Language Models with AI Measurement Tools for Deterministic Atomic-Resolution Experimentation** - [arXiv](https://arxiv.org/abs/2602.20669)
+
+- **Perspective on Utilizing Foundation Models for Laboratory Automation** - [paper](https://www.tandfonline.com/doi/full/10.1080/27660400.2025.2582379)
 
 - **LAP: An Agent-to-Instrument Protocol for Autonomous Science** *(Shiyanjia Lab)* - [paper](https://arxiv.org/abs/2606.03755)
 
@@ -93,6 +125,8 @@ Resources are organized by domain. The tier guide below can be used as optional 
 - **Agent4S: The Transformation of Research Paradigms from the Perspective of Large Language Models** - [paper](https://arxiv.org/abs/2506.23692)
 
 - **AI4Research: A Survey of Artificial Intelligence for Scientific Research** - [paper](https://arxiv.org/abs/2507.01903) / [project](https://ai-4-research.github.io/)
+
+- **Exploring the Role of Large Language Models in the Scientific Method: From Hypothesis to Discovery** - [npj Artificial Intelligence](https://www.nature.com/articles/s44387-025-00019-5)
 
 - **Self-Driving Laboratories for Chemistry and Materials Science** - [review](https://doi.org/10.1021/acs.chemrev.4c00055)
 
