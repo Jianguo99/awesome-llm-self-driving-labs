@@ -7,3 +7,4 @@ __pycache__/
 latest_papers*.md
 latest_papers*.json
 outputs/
+tools/
