@@ -1,28 +1,27 @@
 # Awesome LLM for Self-Driving Labs
 
-> A curated list of LLM-powered autonomous science systems, self-driving labs, benchmarks, and related resources.
+> A curated list of LLM-powered L3+ autonomous science systems, self-driving labs, benchmarks, and related resources.
 
-Focus: systems where LLMs participate in the scientific loop: design -> execution -> analysis -> next decision.
+Focus: L3+ systems where LLMs participate in wet-lab, robotic, instrument, or other physical experimental loops: design -> execution -> analysis -> next decision.
 
-Resources are organized by domain. The tier guide below can be used as optional metadata when adding new entries.
+Resources are organized by domain. Computational-only agents are kept as adjacent references; benchmarks, protocols, and infrastructure are included when they support L3+ automation.
 
-**Tier guide**: A pragmatic taxonomy for this list, adapted from SDL autonomy frameworks and LLM-for-science surveys:
+**SDL autonomy classification**: A five-level physical-lab autonomy scale. L3 is the SDL threshold: the system decides what experiment to run next for at least one closed scientific cycle.
 
 - [Perspectives for self-driving labs in synthetic biology](https://doi.org/10.1016/j.copbio.2022.102881), which discusses laboratory autonomy levels and closed Design-Build-Test-Learn loops.
 - [Autonomous laboratories for accelerated materials discovery](https://doi.org/10.1039/D4DD00059E), which proposes L0-L5 laboratory autonomy levels inspired by SAE vehicle autonomy.
 - [Self-Driving Laboratories for Chemistry and Materials Science](https://doi.org/10.1021/acs.chemrev.4c00055), a broad review of SDL technology and autonomy in chemistry/materials.
 - [From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery](https://arxiv.org/abs/2505.13259), which uses a three-level LLM autonomy framing: LLM as tool, analyst, and scientist.
 
-| Tier | Category | LLM/System Role | Human Role |
+| Level | Name | System / LLM does | Human does |
 | --- | --- | --- | --- |
-| Tier 5 | Full autonomous science | End-to-end discovery from goal to validated result. | Sets goals and reviews results. |
-| Tier 4 | Physical closed loop | Designs, runs, analyzes, and iterates physical experiments. | Sets constraints and handles exceptions. |
-| Tier 3 | Dry-wet hybrid loop | Plans/analyzes wet-lab work and recommends next steps. | Executes or approves key wet-lab steps. |
-| Tier 2 | Computational closed loop | Runs and iterates code, simulations, or data analyses. | Reviews outputs and decides validation. |
-| Tier 1 | Planning and protocol generation | Generates hypotheses, protocols, or candidate designs. | Executes and validates plans. |
-| Tier 0 | Supporting infrastructure | Provides benchmarks, protocols, orchestration, or safety tools. | Builds/evaluates systems. |
+| L1 | Assisted operation | Executes physical lab tasks such as pipetting or data-processing scripts. | Designs experiments, makes scientific decisions, and interprets results. |
+| L2 | Partial autonomy | Provides proactive scientific assistance such as protocol generation. | Reviews protocols, executes, and decides validation. |
+| L3 | Conditional autonomy (SDL threshold) | Runs at least one full scientific cycle; interprets routine analyses and tests supplied hypotheses. | Sets goals and constraints; handles anomalies. |
+| L4 | High autonomy | Generates protocols, executes experiments, analyzes results, and adjusts hypotheses. | Supplies the hypothesis or research question; reviews output. |
+| L5 | Full autonomy (AI researcher) | Formulates questions, designs experiments, validates results, and iterates end to end. | Gives only high-level goals and evaluates results. |
 
-![Tier framework](tier_framework.png)
+![SDL autonomy framework](tier_framework.png)
 
 ## 📰 News
 
@@ -35,6 +34,20 @@ Resources are organized by domain. The tier guide below can be used as optional 
 - **When AI Takes Over Scientific Discovery** - [Forbes](https://www.forbes.com/sites/craigsmith/2025/03/23/when-ai-takes-over-scientific-discovery/)
 
 - **AI Boosts Research Careers, but Flattens Scientific Discovery** - [IEEE Spectrum](https://spectrum.ieee.org/ai-science-research-flattens-discovery)
+
+## ⭐ Notable GitHub Projects
+
+- **MADSci: Modular Autonomous Discovery for Science** *(AD-SDL)* - [GitHub](https://github.com/AD-SDL/MADSci)
+
+- **Self-Driving Lab Demo** *(Sparks-Baird)* - [GitHub](https://github.com/sparks-baird/self-driving-lab-demo)
+
+- **LabClaw** - [GitHub](https://github.com/labclaw/labclaw)
+
+- **device-use: AI Agents for Lab Device GUIs** *(LabClaw)* - [GitHub](https://github.com/labclaw/device-use)
+
+- **AC Dev Lab** *(Acceleration Consortium)* - [GitHub](https://github.com/AccelerationConsortium/ac-dev-lab)
+
+- **Awesome Self-Driving Labs** *(Acceleration Consortium)* - [GitHub](https://github.com/AccelerationConsortium/awesome-self-driving-labs)
 
 ## 🧪 Chemistry and Materials
 
@@ -63,18 +76,6 @@ Resources are organized by domain. The tier guide below can be used as optional 
 - **Robin** *(FutureHouse)* - [arXiv](https://arxiv.org/abs/2505.13400) / [Nature paper](https://www.nature.com/articles/s41586-026-10652-y) / [FutureHouse blog](https://www.futurehouse.org/research/demonstrating-end-to-end-scientific-discovery-with-robin-a-multi-agent-system)
 
 - **Accelerating Scientific Discovery with Co-Scientist** *(Google Research)* - [Nature paper](https://www.nature.com/articles/s41586-026-10644-y) / [PubMed](https://pubmed.ncbi.nlm.nih.gov/42156544/) / [preprint](https://arxiv.org/abs/2502.18864) / [Google Research blog](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/)
-
-## 💻 General Computational Science
-
-- **The AI Scientist** *(Sakana AI)* - [paper](https://arxiv.org/abs/2408.06292) / [Sakana AI blog](https://sakana.ai/ai-scientist/) / [code](https://github.com/SakanaAI/AI-Scientist)
-
-- **The AI Scientist-v2** *(Sakana AI)* - [paper](https://arxiv.org/abs/2504.08066)
-
-- **Agent Laboratory** *(Schmidgall et al.)* - [paper](https://arxiv.org/abs/2501.04227) / [project](https://agentlaboratory.github.io/) / [code](https://github.com/SamuelSchmidgall/AgentLaboratory)
-
-- **Autonomous Agents for Scientific Discovery: Orchestrating Scientists, Language, Code, and Physics** - [arXiv](https://arxiv.org/html/2510.09901v2)
-
-- **Towards End-to-End Automation of AI Research** - [Nature paper](https://www.nature.com/articles/s41586-026-10265-5)
 
 ## 🤖 Protocols and Lab Automation
 
@@ -136,9 +137,23 @@ Resources are organized by domain. The tier guide below can be used as optional 
 
 - **From Equation Discovery to Autonomous Discovery Systems** - [survey](https://arxiv.org/html/2305.02251v2)
 
+## 🧭 Adjacent Computational Systems
+
+Computational-only systems are listed as adjacent references. This repository primarily focuses on LLM-driven automation connected to physical environments, including wet labs, instruments, robotics, and closed-loop experimental platforms.
+
+- **The AI Scientist** *(Sakana AI)* - [paper](https://arxiv.org/abs/2408.06292) / [Sakana AI blog](https://sakana.ai/ai-scientist/) / [code](https://github.com/SakanaAI/AI-Scientist)
+
+- **The AI Scientist-v2** *(Sakana AI)* - [paper](https://arxiv.org/abs/2504.08066) / [code](https://github.com/SakanaAI/AI-Scientist-v2)
+
+- **Agent Laboratory** *(Schmidgall et al.)* - [paper](https://arxiv.org/abs/2501.04227) / [project](https://agentlaboratory.github.io/) / [code](https://github.com/SamuelSchmidgall/AgentLaboratory)
+
+- **Autonomous Agents for Scientific Discovery: Orchestrating Scientists, Language, Code, and Physics** - [arXiv](https://arxiv.org/html/2510.09901v2)
+
+- **Towards End-to-End Automation of AI Research** - [Nature paper](https://www.nature.com/articles/s41586-026-10265-5)
+
 ## 🤝 Contributing
 
-Contributions are welcome. Prefer primary sources: papers, official repositories, project pages, benchmark pages, technical blogs, and correction notices.
+Contributions are welcome. Prefer L3+ primary sources: papers, official repositories, project pages, benchmark pages, technical blogs, and correction notices.
 
 ## 📄 License
 
