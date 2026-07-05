@@ -31,6 +31,8 @@ Resources are organized by domain. Computational-only agents are kept as adjacen
 
 - **AI, Automation Drive Autonomous Science** - [Newswise](https://www.newswise.com/doescience/ai-automation-drive-autonomous-science)
 
+- **Ju Li: AI and the Future of Scientific Research** *(Harvard SEAS)* - [event](https://events.seas.harvard.edu/event/ju-li-ai-and-the-future-of-scientific-research)
+
 - **When AI Takes Over Scientific Discovery** - [Forbes](https://www.forbes.com/sites/craigsmith/2025/03/23/when-ai-takes-over-scientific-discovery/)
 
 - **AI Boosts Research Careers, but Flattens Scientific Discovery** - [IEEE Spectrum](https://spectrum.ieee.org/ai-science-research-flattens-discovery)
