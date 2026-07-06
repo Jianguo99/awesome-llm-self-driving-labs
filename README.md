@@ -33,6 +33,8 @@ Resources are organized by domain. Computational-only agents are kept as adjacen
 
 - **Ju Li: AI and the Future of Scientific Research** *(Harvard SEAS)* - [event](https://events.seas.harvard.edu/event/ju-li-ai-and-the-future-of-scientific-research)
 
+- **Agentic Science and the Rise of the Self-Driving Lab** *(Virginia Tech)* - [news](https://news.vt.edu/articles/2025/09/eng-coe-agentic-science-q-and-a-commentary.html)
+
 - **When AI Takes Over Scientific Discovery** - [Forbes](https://www.forbes.com/sites/craigsmith/2025/03/23/when-ai-takes-over-scientific-discovery/)
 
 - **AI Boosts Research Careers, but Flattens Scientific Discovery** - [IEEE Spectrum](https://spectrum.ieee.org/ai-science-research-flattens-discovery)
@@ -65,6 +67,8 @@ Resources are organized by domain. Computational-only agents are kept as adjacen
 
 - **MARS: Knowledge-Driven Autonomous Materials Research via Collaborative Multi-Agent and Robot System** *(Shenzhen Institute of Advanced Technology)* - [paper](https://www.sciencedirect.com/science/article/abs/pii/S2590238525006204) / [technical coverage](https://www.labmanager.com/closed-loop-autonomous-materials-discovery-system-advances-lab-innovation-34949)
 
+- **AutoLabs: Cognitive Multi-Agent Systems with Self-Correction for Autonomous Chemical Experimentation** *(PNNL)* - [Scientific Reports](https://www.nature.com/articles/s41598-026-45593-z) / [code](https://github.com/pnnl/autolabs)
+
 - **Large Language Models for Porous Materials: From Text Mining to Autonomous Laboratory** - [Digital Discovery](https://pubs.rsc.org/en/content/articlehtml/2026/dd/d5dd00578g)
 
 - **Artificial Intelligence-Driven Autonomous Laboratory for Accelerating Chemical Discovery** - [paper](https://www.oaepublish.com/articles/cs.2025.66)
@@ -79,9 +83,13 @@ Resources are organized by domain. Computational-only agents are kept as adjacen
 
 - **Accelerating Scientific Discovery with Co-Scientist** *(Google Research)* - [Nature paper](https://www.nature.com/articles/s41586-026-10644-y) / [PubMed](https://pubmed.ncbi.nlm.nih.gov/42156544/) / [preprint](https://arxiv.org/abs/2502.18864) / [Google Research blog](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/)
 
+- **Large Language Model for Knowledge Synthesis and AI-Enhanced Biomanufacturing** - [Trends in Biotechnology](https://www.sciencedirect.com/science/article/pii/S0167779925000459)
+
 ## 🤖 Protocols and Lab Automation
 
 - **Expert-Level Protocol Translation for Self-Driving Labs** - [paper](https://arxiv.org/abs/2411.00444)
+
+- **The Evolving Role of Programming and LLMs in the Development of Self-Driving Laboratories** *(Claude-Light)* - [APL Machine Learning](https://pubs.aip.org/aip/aml/article/3/2/026111/3345421/The-evolving-role-of-programming-and-LLMs-in-the) / [code](https://github.com/jkitchin/claude-light)
 
 - **Evaluating Large Language Model Agents for Automation of Atomic Force Microscopy** - [Nature Communications](https://www.nature.com/articles/s41467-025-64105-7)
 
@@ -130,6 +138,10 @@ Resources are organized by domain. Computational-only agents are kept as adjacen
 - **AI4Research: A Survey of Artificial Intelligence for Scientific Research** - [paper](https://arxiv.org/abs/2507.01903) / [project](https://ai-4-research.github.io/)
 
 - **Exploring the Role of Large Language Models in the Scientific Method: From Hypothesis to Discovery** - [npj Artificial Intelligence](https://www.nature.com/articles/s44387-025-00019-5)
+
+- **Self-Driving Laboratories in Japan** - [Digital Discovery](https://pubs.rsc.org/dd/article/4/6/1384/846229/Self-driving-laboratories-in-Japan)
+
+- **From Foundation Models to Autonomous Agents in Biology** - [Genomics Communications](https://www.maxapress.com/article/id/69c6349ffa6c58267402f879)
 
 - **Self-Driving Laboratories for Chemistry and Materials Science** - [review](https://doi.org/10.1021/acs.chemrev.4c00055)
 
